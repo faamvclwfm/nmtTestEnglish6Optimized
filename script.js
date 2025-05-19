@@ -230,94 +230,370 @@ const questions=[
     
   const questionsTask4 = [
     {
-        text: "Online-shopping and e-commerce are gaining on popularity <b>(17)___</b>. In 2017, around 2 billion people worldwide purchased goods online (18)___. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods (19)___. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation (20)___. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially (21)___. The increasing rate of cyber crimes is yet another reason (22)___.",
+        text: `There are so many cookery shows on television
+              these days that it's hard to keep up with al of them.
+              There are programmes that teach the basics, and
+              in other programmes, we visit cooks in their own
+              homes or find out the secrets of restaurant kitchens.
+              All of these shows have enthusiastic viewers,
+              though perhaps the most popular are the ones <b>(17)___</b>
+              Both amateur and professional cooks compete for
+              prizes, which sometimes include a chance to work
+              in one of the world's greatest restaurants, publish
+              their own cookbook, or even open their own
+              restaurant. It's easy to understand why a person
+              who loves cooking would want to participate.
+              After all, winning could launch their careers and
+              transform their lives, (18)___ to make it in a
+              competitive world.
+              But why does the average person watch these
+              shows? Everyone eats, of course, and food in some
+              form or other is an important part of everyone's life.
+              However, not many of us are interested in learning
+              how to make a perfect soufflé, (19)___ . The
+              truth is that the reward for most people in watching
+              a cookery competition is similar to the pleasure
+              we get from watching sports, game shows or any
+              other competitive activity. We identify with and
+              support one or more of the competitors, just like
+              in sports. We get great satisfaction each time they
+              succeed, (20)___
+              , and new hope when they get
+              another chance to prove how good they are.
+              This is why the makers of 'reality' competitions
+              of al kinds spend so much time letting us see the
+              background stories of the competitors. They want us
+              to sympathize and feel that we know these people.
+              And if the competitor has a huge challenge - an ill
+              spouse, no place to live or even a physical disability
+              - so much the better. Why do you think the blind
+              competitor on an American cookery show had so
+              much support, apart from the fact (21)___ ?
+              We wanted her to win in spite of the difficulties.
+              And she did. For us as viewers, i t was almost as
+              satisfying as winning the prize ourselves. Except,
+              of course, that we never had to do anything more
+              difficult (22)___ ... and perhaps imagine our
+              own possible achievements, even if it turns out
+              that our plans don't involve more than going to the
+              fridge for a snack during the commercial break.`,
         questionText: "17.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
+            "<b>A</b> although many of us have never coked an omelete",
+            "<b>B</b> offering the perfect chance for an ambitious cok",
+            "<b>C</b> that she was charming, talented and determined",
+            "<b>D</b> which gives amateur cooks the chance to show of their skils",
+            "<b>E</b> or even in seeing how it's done",
+            "<b>F</b> than sit on the sofa and hold the remote",
+            "<b>G</b> feel sadness when they are defeated",
+            "<b>H</b> where cooks compete against each other for big prizes"
         ],
-        correct: 2 // "which is popular with younger people" fits the context of rising popularity
+        correct: 7 // "which is popular with younger people" fits the context of rising popularity
     },
     {
-        text: "Online-shopping and e-commerce are gaining on popularity (17)___. In 2017, around 2 billion people worldwide purchased goods online <b>(18)___</b>. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods (19)___. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation (20)___. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially (21)___. The increasing rate of cyber crimes is yet another reason (22)___.",
+      text: `There are so many cookery shows on television
+      these days that it's hard to keep up with al of them.
+      There are programmes that teach the basics, and
+      in other programmes, we visit cooks in their own
+      homes or find out the secrets of restaurant kitchens.
+      All of these shows have enthusiastic viewers,
+      though perhaps the most popular are the ones (17)___
+      Both amateur and professional cooks compete for
+      prizes, which sometimes include a chance to work
+      in one of the world's greatest restaurants, publish
+      their own cookbook, or even open their own
+      restaurant. It's easy to understand why a person
+      who loves cooking would want to participate.
+      After all, winning could launch their careers and
+      transform their lives, <b>(18)___</b> to make it in a
+      competitive world.
+      But why does the average person watch these
+      shows? Everyone eats, of course, and food in some
+      form or other is an important part of everyone's life.
+      However, not many of us are interested in learning
+      how to make a perfect soufflé, (19)___ . The
+      truth is that the reward for most people in watching
+      a cookery competition is similar to the pleasure
+      we get from watching sports, game shows or any
+      other competitive activity. We identify with and
+      support one or more of the competitors, just like
+      in sports. We get great satisfaction each time they
+      succeed, (20)___
+      , and new hope when they get
+      another chance to prove how good they are.
+      This is why the makers of 'reality' competitions
+      of al kinds spend so much time letting us see the
+      background stories of the competitors. They want us
+      to sympathize and feel that we know these people.
+      And if the competitor has a huge challenge - an ill
+      spouse, no place to live or even a physical disability
+      - so much the better. Why do you think the blind
+      competitor on an American cookery show had so
+      much support, apart from the fact (21)___ ?
+      We wanted her to win in spite of the difficulties.
+      And she did. For us as viewers, i t was almost as
+      satisfying as winning the prize ourselves. Except,
+      of course, that we never had to do anything more
+      difficult (22)___ ... and perhaps imagine our
+      own possible achievements, even if it turns out
+      that our plans don't involve more than going to the
+      fridge for a snack during the commercial break.`,
         questionText: "18.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
-        ],
-        correct: 7 // "which accounted for 23.2 % of total global retail sales" fits the statistical context
+          "<b>A</b> although many of us have never coked an omelete",
+          "<b>B</b> offering the perfect chance for an ambitious cok",
+          "<b>C</b> that she was charming, talented and determined",
+          "<b>D</b> which gives amateur cooks the chance to show of their skils",
+          "<b>E</b> or even in seeing how it's done",
+          "<b>F</b> than sit on the sofa and hold the remote",
+          "<b>G</b> feel sadness when they are defeated",
+          "<b>H</b> where cooks compete against each other for big prizes"
+      ],
+        correct: 1 // "which accounted for 23.2 % of total global retail sales" fits the statistical context
     },
     {
-        text: "Online-shopping and e-commerce are gaining on popularity (17)___. In 2017, around 2 billion people worldwide purchased goods online (18)___. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods <b>(19)___</b>. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation (20)___. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially (21)___. The increasing rate of cyber crimes is yet another reason (22)___.",
+      text: `There are so many cookery shows on television
+      these days that it's hard to keep up with al of them.
+      There are programmes that teach the basics, and
+      in other programmes, we visit cooks in their own
+      homes or find out the secrets of restaurant kitchens.
+      All of these shows have enthusiastic viewers,
+      though perhaps the most popular are the ones (17)___
+      Both amateur and professional cooks compete for
+      prizes, which sometimes include a chance to work
+      in one of the world's greatest restaurants, publish
+      their own cookbook, or even open their own
+      restaurant. It's easy to understand why a person
+      who loves cooking would want to participate.
+      After all, winning could launch their careers and
+      transform their lives, (18)___ to make it in a
+      competitive world.
+      But why does the average person watch these
+      shows? Everyone eats, of course, and food in some
+      form or other is an important part of everyone's life.
+      However, not many of us are interested in learning
+      how to make a perfect soufflé, <b>(19)___</b> . The
+      truth is that the reward for most people in watching
+      a cookery competition is similar to the pleasure
+      we get from watching sports, game shows or any
+      other competitive activity. We identify with and
+      support one or more of the competitors, just like
+      in sports. We get great satisfaction each time they
+      succeed, (20)___
+      , and new hope when they get
+      another chance to prove how good they are.
+      This is why the makers of 'reality' competitions
+      of al kinds spend so much time letting us see the
+      background stories of the competitors. They want us
+      to sympathize and feel that we know these people.
+      And if the competitor has a huge challenge - an ill
+      spouse, no place to live or even a physical disability
+      - so much the better. Why do you think the blind
+      competitor on an American cookery show had so
+      much support, apart from the fact (21)___ ?
+      We wanted her to win in spite of the difficulties.
+      And she did. For us as viewers, i t was almost as
+      satisfying as winning the prize ourselves. Except,
+      of course, that we never had to do anything more
+      difficult (22)___ ... and perhaps imagine our
+      own possible achievements, even if it turns out
+      that our plans don't involve more than going to the
+      fridge for a snack during the commercial break.`,
         questionText: "19.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
-        ],
-        correct: 1 // "that are bought and sold online" describes the goods
+          "<b>A</b> although many of us have never coked an omelete",
+          "<b>B</b> offering the perfect chance for an ambitious cok",
+          "<b>C</b> that she was charming, talented and determined",
+          "<b>D</b> which gives amateur cooks the chance to show of their skils",
+          "<b>E</b> or even in seeing how it's done",
+          "<b>F</b> than sit on the sofa and hold the remote",
+          "<b>G</b> feel sadness when they are defeated",
+          "<b>H</b> where cooks compete against each other for big prizes"
+      ],
+        correct: 4 // "that are bought and sold online" describes the goods
     },
     {
-        text: "Online-shopping and e-commerce are gaining on popularity (17)___. In 2017, around 2 billion people worldwide purchased goods online (18)___. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods (19)___. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation <b>(20)___</b>. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially (21)___. The increasing rate of cyber crimes is yet another reason (22)___.",
+      text: `There are so many cookery shows on television
+      these days that it's hard to keep up with al of them.
+      There are programmes that teach the basics, and
+      in other programmes, we visit cooks in their own
+      homes or find out the secrets of restaurant kitchens.
+      All of these shows have enthusiastic viewers,
+      though perhaps the most popular are the ones (17)___
+      Both amateur and professional cooks compete for
+      prizes, which sometimes include a chance to work
+      in one of the world's greatest restaurants, publish
+      their own cookbook, or even open their own
+      restaurant. It's easy to understand why a person
+      who loves cooking would want to participate.
+      After all, winning could launch their careers and
+      transform their lives, (18)___ to make it in a
+      competitive world.
+      But why does the average person watch these
+      shows? Everyone eats, of course, and food in some
+      form or other is an important part of everyone's life.
+      However, not many of us are interested in learning
+      how to make a perfect soufflé, (19)___ . The
+      truth is that the reward for most people in watching
+      a cookery competition is similar to the pleasure
+      we get from watching sports, game shows or any
+      other competitive activity. We identify with and
+      support one or more of the competitors, just like
+      in sports. We get great satisfaction each time they
+      succeed, <b>(20)___</b>
+      , and new hope when they get
+      another chance to prove how good they are.
+      This is why the makers of 'reality' competitions
+      of al kinds spend so much time letting us see the
+      background stories of the competitors. They want us
+      to sympathize and feel that we know these people.
+      And if the competitor has a huge challenge - an ill
+      spouse, no place to live or even a physical disability
+      - so much the better. Why do you think the blind
+      competitor on an American cookery show had so
+      much support, apart from the fact (21)___ ?
+      We wanted her to win in spite of the difficulties.
+      And she did. For us as viewers, i t was almost as
+      satisfying as winning the prize ourselves. Except,
+      of course, that we never had to do anything more
+      difficult (22)___ ... and perhaps imagine our
+      own possible achievements, even if it turns out
+      that our plans don't involve more than going to the
+      fridge for a snack during the commercial break.`,
         questionText: "20.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
-        ],
-        correct: 4 // "which is still essential to many people" fits the social satisfaction context
+          "<b>A</b> although many of us have never coked an omelete",
+          "<b>B</b> offering the perfect chance for an ambitious cok",
+          "<b>C</b> that she was charming, talented and determined",
+          "<b>D</b> which gives amateur cooks the chance to show of their skils",
+          "<b>E</b> or even in seeing how it's done",
+          "<b>F</b> than sit on the sofa and hold the remote",
+          "<b>G</b> feel sadness when they are defeated",
+          "<b>H</b> where cooks compete against each other for big prizes"
+      ],
+        correct: 6 // "which is still essential to many people" fits the social satisfaction context
     },
     {
-        text: "Online-shopping and e-commerce are gaining on popularity (17)___. In 2017, around 2 billion people worldwide purchased goods online (18)___. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods (19)___. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation (20)___. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially <b>(21)___</b>. The increasing rate of cyber crimes is yet another reason (22)___.",
+      text: `There are so many cookery shows on television
+      these days that it's hard to keep up with al of them.
+      There are programmes that teach the basics, and
+      in other programmes, we visit cooks in their own
+      homes or find out the secrets of restaurant kitchens.
+      All of these shows have enthusiastic viewers,
+      though perhaps the most popular are the ones (17)___
+      Both amateur and professional cooks compete for
+      prizes, which sometimes include a chance to work
+      in one of the world's greatest restaurants, publish
+      their own cookbook, or even open their own
+      restaurant. It's easy to understand why a person
+      who loves cooking would want to participate.
+      After all, winning could launch their careers and
+      transform their lives, (18)___ to make it in a
+      competitive world.
+      But why does the average person watch these
+      shows? Everyone eats, of course, and food in some
+      form or other is an important part of everyone's life.
+      However, not many of us are interested in learning
+      how to make a perfect soufflé, (19)___ . The
+      truth is that the reward for most people in watching
+      a cookery competition is similar to the pleasure
+      we get from watching sports, game shows or any
+      other competitive activity. We identify with and
+      support one or more of the competitors, just like
+      in sports. We get great satisfaction each time they
+      succeed, (20)___
+      , and new hope when they get
+      another chance to prove how good they are.
+      This is why the makers of 'reality' competitions
+      of al kinds spend so much time letting us see the
+      background stories of the competitors. They want us
+      to sympathize and feel that we know these people.
+      And if the competitor has a huge challenge - an ill
+      spouse, no place to live or even a physical disability
+      - so much the better. Why do you think the blind
+      competitor on an American cookery show had so
+      much support, apart from the fact <b>(21)___</b> ?
+      We wanted her to win in spite of the difficulties.
+      And she did. For us as viewers, i t was almost as
+      satisfying as winning the prize ourselves. Except,
+      of course, that we never had to do anything more
+      difficult (22)___ ... and perhaps imagine our
+      own possible achievements, even if it turns out
+      that our plans don't involve more than going to the
+      fridge for a snack during the commercial break.`,
         questionText: "21.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
-        ],
-        correct: 5 // "when buying expensive items" fits the credit card reluctance context
+          "<b>A</b> although many of us have never coked an omelete",
+          "<b>B</b> offering the perfect chance for an ambitious cok",
+          "<b>C</b> that she was charming, talented and determined",
+          "<b>D</b> which gives amateur cooks the chance to show of their skils",
+          "<b>E</b> or even in seeing how it's done",
+          "<b>F</b> than sit on the sofa and hold the remote",
+          "<b>G</b> feel sadness when they are defeated",
+          "<b>H</b> where cooks compete against each other for big prizes"
+      ],
+        correct: 2 // "when buying expensive items" fits the credit card reluctance context
     },
     {
-        text: "Online-shopping and e-commerce are gaining on popularity (17)___. In 2017, around 2 billion people worldwide purchased goods online (18)___. Clothing, shoes and accessories, computers and electronics, beauty items, books, movies and music are all among the goods (19)___. Yet some people are still reluctant to shop online. One reason is the sense of satisfaction and other people's appreciation (20)___. For a typical fashionista getting a must-have jacket delivered straight to the door is just robbing herself of the pleasure of walking down the street and carrying a shopping bag with a designer logo on it. Another problem while buying online is payment over the internet. Although established online shopping platforms like eBay and Amazon.com have been a great success, many people still refuse to use their credit cards on the Web, especially (21)___. The increasing rate of cyber crimes is yet another reason <b>(22)___</b>.",
+      text: `There are so many cookery shows on television
+      these days that it's hard to keep up with al of them.
+      There are programmes that teach the basics, and
+      in other programmes, we visit cooks in their own
+      homes or find out the secrets of restaurant kitchens.
+      All of these shows have enthusiastic viewers,
+      though perhaps the most popular are the ones (17)___
+      Both amateur and professional cooks compete for
+      prizes, which sometimes include a chance to work
+      in one of the world's greatest restaurants, publish
+      their own cookbook, or even open their own
+      restaurant. It's easy to understand why a person
+      who loves cooking would want to participate.
+      After all, winning could launch their careers and
+      transform their lives, (18)___ to make it in a
+      competitive world.
+      But why does the average person watch these
+      shows? Everyone eats, of course, and food in some
+      form or other is an important part of everyone's life.
+      However, not many of us are interested in learning
+      how to make a perfect soufflé, (19)___ . The
+      truth is that the reward for most people in watching
+      a cookery competition is similar to the pleasure
+      we get from watching sports, game shows or any
+      other competitive activity. We identify with and
+      support one or more of the competitors, just like
+      in sports. We get great satisfaction each time they
+      succeed, (20)___
+      , and new hope when they get
+      another chance to prove how good they are.
+      This is why the makers of 'reality' competitions
+      of al kinds spend so much time letting us see the
+      background stories of the competitors. They want us
+      to sympathize and feel that we know these people.
+      And if the competitor has a huge challenge - an ill
+      spouse, no place to live or even a physical disability
+      - so much the better. Why do you think the blind
+      competitor on an American cookery show had so
+      much support, apart from the fact (21)___ ?
+      We wanted her to win in spite of the difficulties.
+      And she did. For us as viewers, i t was almost as
+      satisfying as winning the prize ourselves. Except,
+      of course, that we never had to do anything more
+      difficult <b>(22)___</b> ... and perhaps imagine our
+      own possible achievements, even if it turns out
+      that our plans don't involve more than going to the
+      fridge for a snack during the commercial break.`,
         questionText: "22.",
         options: [
-            "which is popular with younger people",
-            "that are bought and sold online",
-            "that retail business has never dreamt of",
-            "that discourages people from shopping online",
-            "when getting their money back",
-            "which is still essential to many people",
-            "when buying expensive items",
-            "which accounted for 23.2 % of total global retail sales"
-        ],
-        correct: 3 // "that discourages people from shopping online" fits the cyber crimes context
+          "<b>A</b> although many of us have never coked an omelete",
+          "<b>B</b> offering the perfect chance for an ambitious cok",
+          "<b>C</b> that she was charming, talented and determined",
+          "<b>D</b> which gives amateur cooks the chance to show of their skils",
+          "<b>E</b> or even in seeing how it's done",
+          "<b>F</b> than sit on the sofa and hold the remote",
+          "<b>G</b> feel sadness when they are defeated",
+          "<b>H</b> where cooks compete against each other for big prizes"
+      ],
+        correct: 5 // "that discourages people from shopping online" fits the cyber crimes context
     }
   ];
     
@@ -562,7 +838,8 @@ const questions=[
         div.className = "question";
     
         div.innerHTML=`
-        <h2 style="text-align: center; font-size:40px; font-weight:600">Shopping Online</h2>
+        <h2 style="text-align: center; font-size:40px; font-weight:600">Cookery competitions offer
+'feel-good' moments</h2>
         <p>${q.text}</p>
         <p style="font-weight: bold;">${q.questionText}</p>
         <div class="space-y-3">
